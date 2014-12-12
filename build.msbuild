@@ -1,5 +1,7 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003"
          DefaultTargets="Compile">
+  <!-- Import Project="$(SolutionDir)\BuildTargets\WebApplications\WebApplication.target" /-->
+  <Import Condition="false" Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" /
   <PropertyGroup>
     <Configuration>Debug</Configuration>
     <Platform>AnyCPU</Platform>
@@ -11,6 +13,7 @@
     <ReportsPath>$(RootPath)\reports</ReportsPath>
     <ToolsPath>$(RootPath)\tools</ToolsPath>
     <Packages>$(SrcPath)\packages</Packages>
+  
   </PropertyGroup>
 
   <Target Name="Dev-Compile">
