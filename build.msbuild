@@ -2,9 +2,10 @@
          DefaultTargets="Compile">
   <!-- Import Project="$(SolutionDir)\BuildTargets\WebApplications\WebApplication.target" /-->
     
-  <Import Condition="false" Project="C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\WebApplications\Microsoft.WebApplication.targets" />
   
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v12.0\WebApplications\Microsoft.WebApplication.targets" />
    <!--
+   <Import Condition="false" Project="C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\WebApplications\Microsoft.WebApplication.targets" />
    <Import Condition="false" Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
    C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\WebApplications
      -->
