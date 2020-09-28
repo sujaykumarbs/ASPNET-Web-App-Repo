@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-28T16:08:40.590Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="EYRJHmY8bK26jvUeRi0O" version="13.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-28T16:20:43.859Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="_S_KG1wJHOKmSxFoLgT2" version="13.7.5" type="github">
   <diagram id="di8rolS0qeRZQA17BT-a" name="Page-1">
     <mxGraphModel dx="1662" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -54,6 +54,24 @@
         </mxCell>
         <mxCell id="xPFKDUs52WrZhcujDVJS-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCE5FF;" vertex="1" parent="1">
           <mxGeometry x="40" y="240" width="120" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFKDUs52WrZhcujDVJS-20" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.azure_subscription;" vertex="1" parent="1">
+          <mxGeometry x="210" y="250" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFKDUs52WrZhcujDVJS-21" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_blob;" vertex="1" parent="1">
+          <mxGeometry x="480" y="660" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFKDUs52WrZhcujDVJS-22" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_queue;" vertex="1" parent="1">
+          <mxGeometry x="375" y="590" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFKDUs52WrZhcujDVJS-23" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.azure_website;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="525" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFKDUs52WrZhcujDVJS-24" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.azure_active_directory;" vertex="1" parent="1">
+          <mxGeometry x="650" y="460" width="47.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xPFKDUs52WrZhcujDVJS-25" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="305" y="350" width="235" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
